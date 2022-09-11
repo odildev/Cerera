@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=Roboto:ital@1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Popup</title>
+</head>
+
+<body>
+
+    <div class="button">
+        <a href="#" id="open_pop_up">
+            Войти
+        </a>
+    </div>
+
+    <div class="pop_up" id="pop_up">
+        <div class="pop_up_container">
+            <div class="pop_up_body" id="pop_up_body">
+                <p>Войти</p>
+                <div class="pop__up-subtitle">
+                    Введите ваш логин и пароль, который <br>
+                    указали при регистрации
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Логин">
+                    <input type="password" placeholder="Пароль">
+                    <button>Войти</button>
+                    <div class="pop__up-text">
+                        Нет аккаунта? <span>Зарегистрироваться</span>
+                    </div>
+
+                </form>
+                <div class="pop_up_close" id="pop_up_close">
+                    &#10006
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/popup.js"></script>
+</body>
+
+</html>
